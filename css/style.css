@@ -118,6 +118,8 @@ h2{
     margin: 0;
     padding: 0;
     margin-bottom: 15px;
+    margin-top: 50px;
+    color: #1d1d1f;
 }
 
 p{
@@ -126,6 +128,12 @@ p{
     line-height: 1.5;
     font-weight: 400;
     margin-bottom: 15px;
+}
+
+.sources{
+    text-decoration: none;
+    color: #0A80F7;
+    font-size: 0.9em;
 }
 
 /* footer */
@@ -187,5 +195,9 @@ p{
             font-size: 30px;
         }
         p{
-            font-size: 14px;        }
+            font-size: 14px;
+        }
+        h2{
+            font-size: 20px;
+        }
 }
