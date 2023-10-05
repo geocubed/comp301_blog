@@ -47,6 +47,7 @@ body{
     padding: 30px 40px;
     border-radius: 20px;
     transition: 0.35s;
+    margin-bottom: 35px;
 }
 
 .tile:hover{
@@ -130,11 +131,27 @@ p{
     margin-bottom: 15px;
 }
 
+.videowrapper{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+iframe{
+    border-radius: 20px;
+    width: 650px;
+    height: 365px;
+}
+
 .sources{
     text-decoration: none;
     color: #0A80F7;
     font-size: 0.9em;
 }
+
+
 
 /* footer */
 
@@ -175,6 +192,10 @@ p{
     p{
         font-size: 16px;
     }
+    iframe{
+        width: 550px;
+        height: 308px;
+    }
  }
    
 /* phone */
@@ -200,5 +221,9 @@ p{
         h2{
             font-size: 20px;
             margin-top: 30px;
+        }
+        iframe{
+            width: 340px;
+            height: 191px;
         }
 }
